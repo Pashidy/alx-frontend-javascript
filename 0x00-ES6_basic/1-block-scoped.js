@@ -3,9 +3,10 @@ export default function taskBlock(trueOrFalse) {
   const task2 = true;
 
   if (trueOrFalse) {
-    const newTask = true;
-    const newTask2 = false;
-    return [newTask, newTask2];
+    /*eslint-disable no-unused vars*/
+    const task = true;
+    const task2 = false;
+    /*eslint-enable no-unused vars*/
   }
 
   return [task, task2];
