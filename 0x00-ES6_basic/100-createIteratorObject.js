@@ -10,9 +10,9 @@ export default function createIteratorObject(report) {
       for (const value of Object.values(report.allEmployees)) {
         for (const i of value) {
           yield i;
-          }
         }
-      },
+      }
+    },
   };
 
   return iterable;
