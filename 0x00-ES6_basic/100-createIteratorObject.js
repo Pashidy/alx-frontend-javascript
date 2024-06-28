@@ -1,5 +1,3 @@
-// 100-createIteratorObject.js
-
 export default function createIteratorObject(report) {
   let iterable = [];
 
