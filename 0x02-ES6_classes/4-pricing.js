@@ -19,7 +19,7 @@ class Pricing {
   }
 
   set currency(currency) {
-   if (currency instanceof Currency) this._currency = currency;
+    if (currency instanceof Currency) this._currency = currency;
   }
 
   displayFullPrice() {
