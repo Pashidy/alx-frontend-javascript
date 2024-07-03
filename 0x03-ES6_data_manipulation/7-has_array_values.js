@@ -1,7 +1,5 @@
 function hasValuesFromArray(set, array) {
-  const check = array.every(function value(item) {
-    return set.has(item);
-  });
+  const check = array.every((item) => set.has(item));
   return check;
 }
 
